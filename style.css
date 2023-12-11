@@ -1,0 +1,57 @@
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+} 
+form {
+    display: flex;
+    flex-direction: column ;
+    width: 250px;
+}
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3 ;
+    outline: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+button {
+    padding: 15px;
+    background: #c7c7c7;
+    border: unset;
+    cursor: pointer;
+}
+body form p {
+    display: flex;
+    text-align: center;
+}
+h1 {
+display: flex;
+justify-content: center;
+}
+h3 {
+display: flex;
+justify-content: center;
+}
+.edit {
+display: flex;
+margin: 0;
+justify-content: center;
+align-items: center;
+}
+h2 {
+    text-align: center;
+}
+label {
+    text-align: center;
+}
+div {
+display: flex;
+justify-content: center;
+}
