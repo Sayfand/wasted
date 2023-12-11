@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Дек 11 2023 г., 16:31
+-- Время создания: Дек 11 2023 г., 17:05
 -- Версия сервера: 5.7.33
 -- Версия PHP: 7.1.33
 
@@ -35,14 +35,6 @@ CREATE TABLE `users` (
   `phone` varchar(11) NOT NULL,
   `pass` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Дамп данных таблицы `users`
---
-
-INSERT INTO `users` (`id`, `uname`, `name`, `email`, `phone`, `pass`) VALUES
-(16, 'Kirill', 'Кирилл', 'piska@popka.kakashechki', '1234', '123'),
-(17, '1', '1', '1@1', '1', '1');
 
 --
 -- Индексы сохранённых таблиц
